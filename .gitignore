@@ -1,0 +1,27 @@
+# ESP-IDF
+build/
+managed_components/
+dependencies.lock
+sdkconfig.old
+sdkconfig.bak*
+.cache/
+
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+*.lck
+_autosave-*
+~*.kicad_*
+*-bak
+
+# 3D printing (printer-specific)
+*.bgcode
+*.gcode
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

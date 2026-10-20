@@ -1,0 +1,8 @@
+(version 1)
+(rule "small_pitch_connectors"
+   (condition "A.memberOfFootprint('J2') && B.memberOfFootprint('J2')")
+   (constraint clearance (min 0.15mm)))
+
+(rule "small_pitch_connectors_2"
+   (condition "A.memberOfFootprint('J4') && B.memberOfFootprint('J4')")
+   (constraint clearance (min 0.15mm)))
